@@ -108,19 +108,22 @@ Authorization: Bearer <your_token_here>
 API Routes
 
 Route	Method	Auth?	Description
+
 /register	POST	Register a user	
+
 /login	POST	Log in + get JWT	
+
 /episodes	GET	List all episodes	
-/episodes/<id>	GET	Get episode + appearances	
+
+/episodes/<id>	GET	Get episode + appearances
+
 /episodes/<id>	DELETE	Delete an episode	
+
 /guests	GET	List guests	
-/appearances	POST	Create a guest appearance	
-Testing the API
-Open Thunder Client or Postman
-Import the file:
-challenge-4-lateshow.postman_collection.json
-Use the /login endpoint to get your token
-Add Authorization: Bearer <token> in headers for protected routes
+
+/appearances	POST	Create a guest appearance
+
+
 Tech Stack
 Flask
 SQLAlchemy
