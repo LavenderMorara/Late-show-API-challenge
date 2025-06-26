@@ -3,7 +3,7 @@ A RESTful API built using Flask for managing guests, episodes, and appearances o
 
 Folder Structure
 ````
-late-show-api/
+late-show-api-challenge/
 ├── server/
 │   ├── app.py
 │   ├── config.py
