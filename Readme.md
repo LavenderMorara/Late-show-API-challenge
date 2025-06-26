@@ -124,11 +124,18 @@ Route	Method	Auth?	Description
 /appearances	POST	Create a guest appearance
 
 
-Tech Stack
+TECH STACK
+
 Flask
+
 SQLAlchemy
+
 Flask-Migrate
+
 Flask-JWT-Extended
+
 PostgreSQL
+
 Python Dotenv
+
 Flask-Bcrypt
